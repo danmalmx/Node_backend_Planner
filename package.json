@@ -1,0 +1,22 @@
+{
+  "name": "swcg-planner-backend",
+  "version": "1.0.0",
+  "description": "Node APIs and MongoDB for Consultant Profile",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://SprintaApps@dev.azure.com/SprintaApps/SwCG-Planner-Backend/_git/SwCG-Planner-Backend"
+  },
+  "author": "Sprinta AB",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4"
+  }
+}
